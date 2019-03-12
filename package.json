@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development --watch",
+    "start-local": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "author": "Nhat Nguyen",
@@ -23,6 +24,7 @@
     "css-loader": "^2.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   }
 }
